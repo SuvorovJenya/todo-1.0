@@ -21,8 +21,8 @@ def add(task):
 	if len(todoList) == 0:
 		count = 1
 	todoList.append({'id': count, 
-					'message': task, 
-					'datetime': datetime.datetime.today().strftime("%f")})
+			'message': task, 
+			'datetime': datetime.datetime.today().strftime("%f")})
 	count += 1
 	see_all_tasks()
 
